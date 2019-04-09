@@ -5,3 +5,162 @@
 body {
     margin: 0;
 }
+
+#screen {
+    width: 100vw;
+    height: 56.25vw;
+    overflow: hidden;
+    position: relative;
+}
+
+#game {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#start {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    top: 0;
+    left: 0;
+    /*background-image: url(Assets/startscreen_to-use.svg);*/
+    background-size: 100%;
+}
+
+#game_background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: 100%;
+    background-image: url(Assets/spilsk%C3%A6rm.svg);
+}
+
+/*------------VINDER OG TABERSKÆRM---------*/
+#gameover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 56.25vw;
+    /*background-image: url(Assets/Slutsk%C3%A6rm.svg);*/
+    background-size: 100%;
+}
+
+#levelcomplete {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 56.25vw;
+    /*background-image: url(Assets/Levelcomplete.svg);*/
+    background-size: 100%;
+}
+
+/*----------------GAME ELEMENTS---------------*/
+
+#game_elements {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/*------TO CLICK------*/
+#hjerte_container {
+    position: absolute;
+    bottom: 6vw;
+    left: 39vw;
+}
+
+#hjerte_sprite {
+    background-image: url(Assets/Hjerte.svg);
+    background-size: 100%;
+    width: 7vw;
+    height: 5.8vw;
+}
+
+#kryds_container {
+    position: absolute;
+    bottom: 6vw;
+    left: 53vw;
+}
+
+#kryds_sprite {
+    background-image: url(Assets/Krydset.svg);
+    background-size: 100%;
+    width: 7vw;
+    height: 5.6vw;
+}
+
+/*------GODE BILLEDER------*/
+#godbillede_container1,
+#godbillede_container2,
+#godbillede_container3,
+#godbillede_container4,
+#godbillede_container5 {
+    position: absolute;
+}
+
+#godbillede_sprite1 {
+    background-image: url(Assets/godbilled1.svg);
+    background-size: 100%;
+}
+
+#godbillede_sprite2 {
+    background-image: url(Assets/godbilled2.svg);
+    background-size: 100%;
+}
+
+#godbillede_sprite3 {
+    background-image: url(Assets/godbilled3.svg);
+    background-size: 100%;
+}
+
+#godbillede_sprite4 {
+    background-image: url(Assets/godbilled4.svg);
+    background-size: 100%;
+}
+
+#godbillede_sprite5 {
+    background-image: url(Assets/godbilled5.svg);
+    background-size: 100%;
+}
+
+/*------DÅRLIG BILLEDER------*/
+#darligbillede_container1,
+#darligbillede_container2,
+#darligbillede_container3,
+#darligbillede_container4,
+#darligbillede_container5 {
+    position: absolute;
+}
+
+#darligbillede_sprite1 {
+    background-image: url(Assets/darligbilled1.svg);
+    background-size: 100%;
+
+}
+
+#darligbillede_sprite2 {
+    background-image: url(Assets/darligbilled2.svg);
+    background-size: 100%;
+}
+
+#darligbillede_sprite3 {
+    background-image: url(Assets/darligbilled3.svg);
+    background-size: 100%;
+}
+
+#darligbillede_sprite4 {
+    background-image: url(Assets/darligbilled4.svg);
+    background-size: 100%;
+}
+
+#darligbillede_sprite5 {
+    background-image: url(Assets/darligbilled5.svg);
+    background-size: 100%;
+}
+
+
+/*------ANIMATIONER TIL FIGUR-------*/
