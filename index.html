@@ -18,14 +18,6 @@
             </div>
             <div id="game_elements">
 
-                <!----TO CLICK---->
-                <div id="hjerte_container" class="sprite">
-                    <div id="hjerte_sprite" class="sprite"></div>
-                </div>
-                <div id="kryds_container" class="sprite">
-                    <div id="kryds_sprite" class="sprite"></div>
-                </div>
-
                 <!----GODE BILLEDER---->
                 <div id="godbillede_container1" class="pos0">
                     <div id="godbillede_sprite1" class=""></div>
@@ -59,9 +51,18 @@
                 <div id="darligbillede_container5" class="pos9">
                     <div id="darligbillede_sprite5" class=""></div>
                 </div>
+                <div id="game_forgrund">
+                </div>
+
+                <!----TO CLICK---->
+                <div id="hjerte_container" class="sprite">
+                    <div id="hjerte_sprite" class="sprite"></div>
+                </div>
+                <div id="kryds_container" class="sprite">
+                    <div id="kryds_sprite" class="sprite"></div>
+                </div>
             </div>
-            <div id="game_forgrund">
-            </div>
+
 
             <div id="game_ui">
                 <div id="score_board" class="board">
@@ -71,10 +72,13 @@
         </div>
     </div>
 
-    <!--<div id="start">
-        <div id="startknap" class="hide"></div>
+    <div id="start" class="hide">
+        <div id="startknap_container" class="hide">
+            <div id="startknap_sprite"></div>
+        </div>
     </div>
-        <div id="introduktion"></div>
+    <div id="game_intro" class="hide">
+    </div>
     <div id="gameover" class="hide">
         <div id="spiligenknap_container1" class="hide">
             <div id="spiligenknap_sprite1"></div>
@@ -87,8 +91,11 @@
     </div>
 
     <div id="sounds">
-        <!-- TODO: Tilføj audio elementer her -->
-
+        <audio src="Lyd/NFF-finger-snap-02_01.mp3" id="ckilk_good_ting" controls></audio>
+        <audio src="Lyd/nej.mp3" id="ckilk_bad_ting" controls></audio>
+        <audio src="Lyd/tab_spil_lyd.mp3" id="gameover" controls></audio>
+        <audio src="Lyd/ta_da.mp3" id="levelcomplete" controls></audio>
+    </div>
     <script src="script.js"></script>
 
 

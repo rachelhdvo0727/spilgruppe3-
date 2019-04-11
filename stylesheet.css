@@ -19,47 +19,50 @@ body {
     position: relative;
 }
 
-#start {
+/*#start {
     position: absolute;
     width: 100vw;
     height: 56.25vw;
     top: 0;
     left: 0;
-    /*background-image: url(Assets/startscreen_to_use.svg);*/
+    background-image: url(Assets/startscreen_to_use.svg);
     background-size: 100%;
-}
-
-/*#game_intro{
-width: 100%;
-    height: 100%;
-position: absolute;
-background-image: url(Assets/Introscreen.svg);
-}
+}*/
 
 #game_baggrund {
     width: 100%;
     height: 100%;
     position: absolute;
     background-size: 100%;
-    background-image: url(Assets/Baggrund.svg);
+    background-image: url(Assets/baggrund_ny.svg);
 }
 
-#game_forgrund {
+/*#game_intro {
     width: 100%;
     height: 100%;
     position: absolute;
     background-size: 100%;
-    background-image: url(Assets/Forgrund.svg);
+    background-image: url(Assets/Introscreen_to_use.svg);
+}*/
+
+
+#game_forgrund {
+    width: 100%;
+    height: 100%;
+    left: 0.8vw;
+    position: absolute;
+    background-size: 100%;
+    background-image: url(Assets/forgrund_old.svg);
 }
 
-/*------------VINDER OG TABERSKÆRM---------*/
+/*------------VINDER OG TABERSKÆRM---------
 #gameover {
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
     height: 56.25vw;
-    /*background-image: url(Assets/Slutscreen.svg);*/
+    background-image: url(Assets/end_game.svg);
     background-size: 100%;
 }
 
@@ -69,7 +72,7 @@ background-image: url(Assets/Introscreen.svg);
     left: 0;
     width: 100vw;
     height: 56.25vw;
-    /*background-image: url(Assets/Levelcomplete.svg);*/
+    background-image: url(Assets/end_game.svg);
     background-size: 100%;
 }
 
@@ -249,6 +252,14 @@ background-image: url(Assets/Introscreen.svg);
 }
 
 /*-------GAME UI--------*/
+
+#game_ui {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+}
+
 #score_board {
     position: absolute;
     top: 2.5vw;
@@ -273,6 +284,19 @@ background-image: url(Assets/Introscreen.svg);
     font-size: 6.5vw;
     color: rgb(242, 116, 87);
     background-size: 100%;
+}
+
+#startknap_container {
+    position: absolute;
+    bottom: 2vw;
+    left: 46.5vw;
+}
+
+#startknap_sprite {
+    background-image: url(Assets/spilknap.svg);
+    background-size: 100%;
+    height: 12.5vw;
+    width: 12vw;
 }
 
 /*------ANIMATIONER TIL FIGUR-------*/
